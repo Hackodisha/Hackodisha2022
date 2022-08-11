@@ -1,9 +1,19 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 
 function Stats(){
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+
+{/* Performs similarly to componentDidMount in classes */}
+useEffect(() => {
+    window.addEventListener("resize", () => {
+        const ismobile = window.innerWidth < 1200;
+        if (ismobile !== isMobile) setIsMobile(ismobile);
+    }, false);
+}, [isMobile]);
+
   return(
     <section id='Stats'>
-  <div className='container'>
+  <div className={`${isMobile ? "none" : "container"}`}>
     <div className='text-white text-2xl font-bold'>  
     <h1 className='mx-16 py-10 mb-4 text-4xl font-normal'>HackOdisha 1.0 Statistics</h1>
     <div className='grid grid-cols-2 md:grid-cols-3'>

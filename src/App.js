@@ -12,26 +12,26 @@ import Loader from "./components/Loading/Loader";
 import { useState } from "react"
 import FAQ from "./components/FAQ/FAQ";
 
-function App() {
-  const [loading,setLoading] =useState(true); 
+ function App() {
+//   const [loading,setLoading] =useState(true); 
   
-  if(loading){
-    setTimeout(()=>{
+//   if(loading){
+//     setTimeout(()=>{
       
-      setLoading(false);
-    },2000)
-     return <Loader/>
+//       setLoading(false);
+//     },2000)
+//      return <Loader/>
     
-  }  
+//   }  
   return (
-      !loading &&  
+      // !loading &&  
    
     <div  className="App" >
       <Header />
       <About />
       <Stats />
       <Track/>
-      <Prizes/>
+      <Prizes className='container'/>
       <Timeline/>
       <SponserFinal/>
       <FAQ/>
