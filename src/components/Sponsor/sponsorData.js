@@ -43,7 +43,7 @@ import snyk from "../../assets/Sponsors/Bronze/snyk.png";
 import centeredapp from "../../assets/Sponsors/Bronze/Centered.app.jpeg"
 import replit from "../../assets/Sponsors/Bronze/Replit.jpg"
 import Qoom from "../../assets/Sponsors/Bronze/Qoom logo.svg"
-
+import zilano from "../../assets/Sponsors/Bronze/Zilano Logo.png"
 
 
 
@@ -304,6 +304,12 @@ const bronzeSponsors = [
     link: "https://www.qoom.io/",
     image: Qoom,
     alt: "Qoom bronze sponsor for Hackodisha",
+  },
+  {
+    id: 23,
+    link: "https://www.zilano.com/",
+    image: zilano,
+    alt: "Zilano bronze sponsor for Hackodisha",
   }
 ];
 
