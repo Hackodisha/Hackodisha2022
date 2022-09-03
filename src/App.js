@@ -6,7 +6,6 @@ import Stats from "./components/statistics/Stats";
 import Timeline from "./components/Timeline/Timeline";
 import Track from "./components/Track/Track";
 import bgWeb from "./assets/bg-final.png";
-import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Loader from "./components/Loaders/Loader";
@@ -19,6 +18,7 @@ import {
   SilverSponsors,
 } from "./components/Sponsor/sponsor";
 import Team from "./components/team/Team";
+import PrizePage from "./components/prizes2/PrizePage";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -31,9 +31,11 @@ function App() {
   }
   return (
     !loading && (
+        
       <div className="App">
         <Header />
         <div className="blob" style={{ backgroundImage: `url(${bgWeb})` }}>
+          <PrizePage/>
           <About />
           <Stats />
           <Track />
@@ -45,8 +47,12 @@ function App() {
           <BronzeSponsors />
           <FAQ />
           <Footer />
+          
         </div>
+        
       </div>
+      
+      
     )
   );
 }
