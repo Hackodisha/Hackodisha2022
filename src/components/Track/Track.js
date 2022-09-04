@@ -5,7 +5,7 @@ import disastermanagement from "./disaster management.svg";
 import openinnovation from "./open innovation.svg";
 import breakchain from "./Women Security.svg";
 import Education from "./education.svg";
-import blockchain from "./blockchain.jpg"
+import blockchain from "./blockchain.jpg";
 const Track = () => {
   return (
     <section id="Tracks">
@@ -19,7 +19,6 @@ const Track = () => {
                 alt="heathcare"
                 width="180px"
                 height="180px"
-                
               ></img>
               <h3 className="mt-4 mb-8 md:mb-8">Healthcare</h3>
               {/* <p className="mb-4 md:mb-8">Registrations</p> */}
