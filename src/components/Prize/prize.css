@@ -78,7 +78,7 @@
   }
   
   .pricing-table .ptable-single:hover {
-    /* box-shadow: 0 0 10px #999999; */
+    box-shadow: 0 0 10px #999999;
   }
   
   .pricing-table .ptable-header {
@@ -152,7 +152,7 @@
   
   .pricing-table .ptable-title h2 {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 300;
     letter-spacing: 2px;
   }
@@ -191,7 +191,7 @@
   
   .pricing-table .ptable-description ul li {
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     letter-spacing: 1px;
     padding: 7px;

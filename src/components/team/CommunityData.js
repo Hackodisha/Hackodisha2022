@@ -90,11 +90,11 @@ export default [
         contact:''
     },
     {
-        imglink:img17,
+        imglink:img23,
         contact:''
     },
     {
-        imglink:img18,
+        imglink:img24,
         contact:''
     },
     {
@@ -114,11 +114,11 @@ export default [
         contact:''
     },
     {
-        imglink:img23,
+        imglink:img17,
         contact:''
     },
     {
-        imglink:img24,
+        imglink:img18,
         contact:''
     },
     {
