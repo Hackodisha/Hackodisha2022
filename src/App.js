@@ -6,11 +6,10 @@ import Stats from "./components/statistics/Stats";
 import Timeline from "./components/Timeline/Timeline";
 import Track from "./components/Track/Track";
 import bgWeb from "./assets/bg-final.png";
-import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Loader from "./components/Loaders/Loader";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import FAQ from "./components/FAQ/FAQ";
 import {
   BronzeSponsors,
@@ -18,36 +17,36 @@ import {
   PlatinumSponsors,
   SilverSponsors,
 } from "./components/Sponsor/sponsor";
-import Team from "./components/team/Team";
 
 function App() {
   const [loading, setLoading] = useState(true);
 
-  if (loading) {
+  useEffect(() => {
+    setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 2000);
-    return <Loader />;
-  }
-  return (
-    !loading && (
-      <div className="App">
-        <Header />
-        <div className="blob" style={{ backgroundImage: `url(${bgWeb})` }}>
-          <About />
-          <Stats />
-          <Track />
-          <Prize />
-          <Timeline/>
-          <PlatinumSponsors />
-          <GoldSponsors />
-          <SilverSponsors />
-          <BronzeSponsors />
-          <FAQ />
-          <Footer />
-        </div>
+  }, []);
+
+  return loading ? (
+    <Loader />
+  ) : (
+    <div className="App">
+      <Header />
+      <div className="blob" style={{ backgroundImage: `url(${bgWeb})` }}>
+        <About />
+        <Stats />
+        <Track />
+        <Prize />
+        <Timeline />
+        <PlatinumSponsors />
+        <GoldSponsors />
+        <SilverSponsors />
+        <BronzeSponsors />
+        <FAQ />
+        <Footer />
       </div>
-    )
+    </div>
   );
 }
 
