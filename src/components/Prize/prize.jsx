@@ -7,8 +7,8 @@ import third from "./assets/third.svg";
 
 const Prize = () => {
   return (
-    <section className="container" id="prize">
-      <h2 className="pl-10 text-xl text-white pb-10 pt-10">
+    <section className="container" id="Prizes">
+      <h2 className="pl-10 text-2xl text-white pb-10 pt-10">
         # Hackodisha Winner's
       </h2>
 
@@ -16,7 +16,7 @@ const Prize = () => {
         <div class="ptable-item">
           <div class="ptable-single">
             <div class="ptable-header">
-              <div class="ptable-title">
+              <div class="text-white text-4xl">
                 <h2>Silver</h2>
               </div>
               <div class="ptable-price">
@@ -48,7 +48,7 @@ const Prize = () => {
         <div class="ptable-item featured-item">
           <div class="ptable-single">
             <div class="ptable-header">
-              <div class="ptable-title">
+              <div class="text-white text-5xl">
                 <h2>Gold</h2>
               </div>
               <div class="ptable-price">
@@ -80,7 +80,7 @@ const Prize = () => {
         <div class="ptable-item">
           <div class="ptable-single">
             <div class="ptable-header">
-              <div class="ptable-title">
+              <div class="text-white text-4xl">
                 <h2>Bronze</h2>
               </div>
               <div class="ptable-price">
@@ -110,7 +110,7 @@ const Prize = () => {
         </div>
       </div>
       <div className="nitr-prizes mt-16">
-        <h2 className="pl-10 text-xl text-white pb-10">
+        <h2 className="pl-10 text-2xl text-white pb-10">
           # Only for NIT Rourkela Students
         </h2>
 
@@ -248,7 +248,7 @@ const Prize = () => {
 
 
       <div className="nitr-prizes mt-16">
-        <h2 className="pl-10 text-xl text-white pb-10">
+        <h2 className="pl-10 text-2xl text-white pb-10">
           # For all Students
         </h2>
 
@@ -275,7 +275,7 @@ const Prize = () => {
                     <li>25% discount no starch press</li>
                     <li>discount vouchers interview buddy</li>
                     <li>1Password teams</li>
-                    <li>90-day extended trial promo code for Balsamiq Cloud</li>
+                    <li>90-day trial promo code for Balsamiq Cloud</li>
                     <li>Free domains from .xyz</li>
                     <li>20% discount Rosenfeld</li>
                   </ul>
@@ -286,7 +286,7 @@ const Prize = () => {
        </div>
 
          
-        <h2 className="pl-10 text-xl text-white pb-10">
+        <h2 className="pl-10 text-2xl text-white pb-10">
           # Track Prizes
         </h2>
         <div class="pricing-table">
