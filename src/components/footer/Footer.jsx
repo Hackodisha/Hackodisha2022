@@ -38,9 +38,9 @@ const Footer = () => {
                 </a>
                 <a
                   className=" hover:text-gray-300 hover:cursor-pointer"
-                  href="#event"
+                  href="#Timeline"
                 >
-                  Event
+                  Events
                 </a>
                 <a
                   className=" hover:text-gray-300 hover:cursor-pointer"

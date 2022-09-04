@@ -35,7 +35,7 @@ const Team = () => {
           {datacom.map((com) => {
             const { imglink, contact } = com;
             return (
-              <div className="flex justify-center align-middle  mt-4 w-[250px]  p-1 m-2">
+              <div className="flex justify-center align-middle  mt-4 w-[190px]  p-4 m-2">
                 <a href={contact} className="flex justify-center">
                   <img className="" src={imglink} alt="a" />
                 </a>
