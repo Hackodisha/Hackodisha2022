@@ -10,7 +10,7 @@ export default function About() {
             alt="HackOdisha2022"
             className="h-[30vh] sm:h-[35vh] lg:mt-12 xl:h-[45vh] w-[80%] md:w-[60%] lg:w-[45%] xl:w-[42%] ml-12 md:ml-36 lg:ml-24 lg:mr-4"
           />
-          <div className="  lg:pr-0 lg:w-[60%] pl-1 ">
+          <div className="  lg:pr-0 lg:w-[60%] py-1 pl-2 pr-1 ">
             <p className="font-sans lg:w-[95%]  text-base md:text-lg lg:text-xl xl:text-2xl txt leading-6">
               Welcome to HackOdisha 2.0, a hackathon that aims to bring
               creatives and developers together to solve some of the most
