@@ -18,7 +18,6 @@ import {
   SilverSponsors,
 } from "./components/Sponsor/sponsor";
 import Team from "./components/team/Team";
-import PrizePage from "./components/prizes2/PrizePage";
 
 function App() {
   const [loading, setLoading] = useState(true);

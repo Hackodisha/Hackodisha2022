@@ -3,7 +3,6 @@ import "./prize.css";
 import first from "./assets/first.svg";
 import second from "./assets/second.svg";
 import third from "./assets/third.svg";
-import PrizePage from "../prizes2/PrizePage";
 import { Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 
