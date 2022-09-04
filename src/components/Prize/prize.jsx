@@ -43,7 +43,7 @@ const Prize = () => {
             </div>
              <div class="ptable-footer">
               <div class="ptable-action">
-              <Link to="/viewallprizes">Know more</Link>
+              <a href="https://HackOdisha2022-prizes.surge.sh/" target="_blank">Know more</a>
               </div>
             </div> 
           </div>
@@ -76,7 +76,7 @@ const Prize = () => {
             </div>
              <div class="ptable-footer">
               <div class="ptable-action">
-              <Link to="/prizes">Know more</Link>
+              <a href="https://HackOdisha2022-prizes.surge.sh/" target="_blank">Know more</a>
               </div>
             </div> 
           </div>
@@ -109,7 +109,7 @@ const Prize = () => {
             </div>
             <div class="ptable-footer">
               <div class="ptable-action">
-                <Link to="/prizes">Know more</Link>
+              <a href="https://HackOdisha2022-prizes.surge.sh/" target="_blank">Know more</a>
               </div>
             </div> 
           </div>

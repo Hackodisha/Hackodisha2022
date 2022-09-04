@@ -35,7 +35,6 @@ function App() {
       <div className="App">
         <Header />
         <div className="blob" style={{ backgroundImage: `url(${bgWeb})` }}>
-          <PrizePage/>
           <About />
           <Stats />
           <Track />
