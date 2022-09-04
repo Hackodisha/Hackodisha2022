@@ -6,7 +6,6 @@ import Stats from "./components/statistics/Stats";
 import Timeline from "./components/Timeline/Timeline";
 import Track from "./components/Track/Track";
 import bgWeb from "./assets/bg-final.png";
-import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Loader from "./components/Loaders/Loader";
@@ -31,6 +30,7 @@ function App() {
   }
   return (
     !loading && (
+        
       <div className="App">
         <Header />
         <div className="blob" style={{ backgroundImage: `url(${bgWeb})` }}>
@@ -45,8 +45,12 @@ function App() {
           <BronzeSponsors />
           <FAQ />
           <Footer />
+          
         </div>
+        
       </div>
+      
+      
     )
   );
 }

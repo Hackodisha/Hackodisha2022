@@ -8,6 +8,7 @@ import Hamburger from "hamburger-react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import HackodishaIMG from "../../assets/logo.png";
 import { Routes, Route } from "react-router-dom";
+import PrizePage from "../prizes2/PrizePage";
 
 const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -18,6 +19,8 @@ const Header = () => {
         <Route path="/team" element={<Team />}>
           {" "}
         </Route>
+        <Route path="/viewallprizes" element={<PrizePage/>}></Route>
+        
       </Routes>
 
       <section

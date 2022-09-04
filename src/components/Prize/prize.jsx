@@ -1,12 +1,16 @@
 import React from "react";
 import "./prize.css";
-
 import first from "./assets/first.svg";
 import second from "./assets/second.svg";
 import third from "./assets/third.svg";
+import PrizePage from "../prizes2/PrizePage";
+import { Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Prize = () => {
   return (
+    <>
+    
     <section className="container" id="prize">
       <h2 className="pl-10 text-xl text-white pb-10 pt-10">
         # Hackodisha Winner's
@@ -37,11 +41,11 @@ const Prize = () => {
                 </ul>
               </div>
             </div>
-            {/* <div class="ptable-footer">
+             <div class="ptable-footer">
               <div class="ptable-action">
-                <a href="">Know More</a>
+              <Link to="/viewallprizes">Know more</Link>
               </div>
-            </div> */}
+            </div> 
           </div>
         </div>
 
@@ -66,14 +70,15 @@ const Prize = () => {
                   <li>Goodies & Tshirts </li>
                   <li>Other prices worth XX</li>
                   <li>Discount Coupons</li>
+                  
                 </ul>
               </div>
             </div>
-            {/* <div class="ptable-footer">
+             <div class="ptable-footer">
               <div class="ptable-action">
-                <a href="">Know More</a>
+              <Link to="/prizes">Know more</Link>
               </div>
-            </div> */}
+            </div> 
           </div>
         </div>
 
@@ -98,14 +103,15 @@ const Prize = () => {
                   <li>Goodies & Tshirts </li>
                   <li>Other prices worth XX</li>
                   <li>Discount Coupons</li>
+                  
                 </ul>
               </div>
             </div>
-            {/* <div class="ptable-footer">
+            <div class="ptable-footer">
               <div class="ptable-action">
-                <a href="">Know More</a>
+                <Link to="/prizes">Know more</Link>
               </div>
-            </div> */}
+            </div> 
           </div>
         </div>
       </div>
@@ -138,6 +144,7 @@ const Prize = () => {
                     <li>Goodies & Tshirts </li>
                     <li>Other prices worth XX</li>
                     <li>Discount Coupons</li>
+                    
                   </ul>
                 </div>
               </div>
@@ -165,6 +172,7 @@ const Prize = () => {
                     <li>Goodies & Tshirts </li>
                     <li>Other prices worth XX</li>
                     <li>Discount Coupons</li>
+                    
                   </ul>
                 </div>
               </div>
@@ -194,6 +202,7 @@ const Prize = () => {
                     <li>Goodies & Tshirts </li>
                     <li>Other prices worth XX</li>
                     <li>Discount Coupons</li>
+                    
                   </ul>
                 </div>
               </div>
@@ -221,6 +230,7 @@ const Prize = () => {
                     {/* <li></li> */}
                     <li>free stickers</li>
                     <li>Discount Coupons</li>
+                   
                   </ul>
                 </div>
               </div>
@@ -233,20 +243,6 @@ const Prize = () => {
         </div>
         
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <div className="nitr-prizes mt-16">
         <h2 className="pl-10 text-xl text-white pb-10">
           # For all Students
@@ -278,6 +274,7 @@ const Prize = () => {
                     <li>90-day extended trial promo code for Balsamiq Cloud</li>
                     <li>Free domains from .xyz</li>
                     <li>20% discount Rosenfeld</li>
+                    
                   </ul>
                 </div>
               </div>
@@ -456,37 +453,18 @@ const Prize = () => {
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
-
-
-
         </div>
-
-        
-
-
-
-
-
-
-
-
-
-        
       </div>
-
-
-
-
-      
     </section>
+    </>
   );
 };
 
-export default Prize;
+export default function PrizeFinal(){
+  return (
+    
+    
+    <Prize/>
+    
+  )
+};
