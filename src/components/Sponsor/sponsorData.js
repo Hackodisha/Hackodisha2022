@@ -21,7 +21,6 @@ import Bubble from "../../assets/Sponsors/Silver/Bubble.io logo.png";
 import DigitalOcean from "../../assets/Sponsors/Silver/Digital Ocean.png";
 import Quillbot from "../../assets/Sponsors/Silver/Quillbot logo.png";
 
-
 import oneP from "../../assets/Sponsors/Bronze/1p.png";
 import axure from "../../assets/Sponsors/Bronze/axure.png";
 import balsamiq from "../../assets/Sponsors/Bronze/balsamiq.png";
@@ -38,16 +37,19 @@ import jetbrains from "../../assets/Sponsors/Bronze/jet_brains.png";
 import rosefeld from "../../assets/Sponsors/Bronze/Rosefeld.png";
 import standoutstickers from "../../assets/Sponsors/Bronze/standOutStickers.png";
 import testmail from "../../assets/Sponsors/Bronze/testmail.png";
-import hackclub from  "../../assets/Sponsors/Bronze/hackClub.png";
+import hackclub from "../../assets/Sponsors/Bronze/hackClub.png";
 import snyk from "../../assets/Sponsors/Bronze/snyk.png";
-import centeredapp from "../../assets/Sponsors/Bronze/Centered.app.jpeg"
-import replit from "../../assets/Sponsors/Bronze/Replit.jpg"
-import Qoom from "../../assets/Sponsors/Bronze/Qoom logo.svg"
-
-
-
+import centeredapp from "../../assets/Sponsors/Bronze/Centered.app.jpeg";
+import replit from "../../assets/Sponsors/Bronze/Replit.jpg";
+import Qoom from "../../assets/Sponsors/Bronze/Qoom logo.svg";
 
 const platinumSponsors = [
+  {
+    id: 12,
+    link: "https://quillbot.com/",
+    image: Quillbot,
+    alt: "Quillbot Robotix silver sponsor for Hackodisha",
+  },
   {
     id: 1,
     link: "https://www.nitrkl.ac.in/",
@@ -77,30 +79,30 @@ const goldSponsors = [
   },
   {
     id: 2,
-    link: "https://filecoin.io/",
-    image: Filecoin,
-    alt: "Polygon silver sponsor for Hackodisha",
-  },
-  {
-    id: 3,
     link: "https://polygon.technology/",
     image: polygon,
     alt: "Polygon gold sponsor for Hackodisha",
   },
   {
-    id: 4,
+    id: 3,
     link: "https://fueler.io/",
     image: fueler,
     alt: "Fueler gold sponsor for Hackodisha",
   },
   {
-    id: 5,
+    id: 4,
+    link: "https://filecoin.io/",
+    image: Filecoin,
+    alt: "Polygon silver sponsor for Hackodisha",
+  },
+];
+const silverSponsors = [
+  {
+    id: 13,
     link: "https://solana.com/",
     image: solana,
     alt: "Solana gold sponsor for Hackodisha",
   },
-];
-const silverSponsors = [
   {
     id: 2,
     link: "https://streamyard.com/",
@@ -160,12 +162,6 @@ const silverSponsors = [
     link: "https://www.digitalocean.com/",
     image: DigitalOcean,
     alt: "DigitalOcean Robotix silver sponsor for Hackodisha",
-  },
-  {
-    id: 12,
-    link: "https://quillbot.com/",
-    image: Quillbot,
-    alt: "Quillbot Robotix silver sponsor for Hackodisha",
   },
 ];
 
@@ -266,7 +262,7 @@ const bronzeSponsors = [
   {
     id: 16,
     link: "https://www.standoutstickers.com/",
-    image:standoutstickers,
+    image: standoutstickers,
     alt: "Stand Out Stickers bronze sponsor for Hackodisha",
   },
   {
@@ -304,7 +300,7 @@ const bronzeSponsors = [
     link: "https://www.qoom.io/",
     image: Qoom,
     alt: "Qoom bronze sponsor for Hackodisha",
-  }
+  },
 ];
 
 export { platinumSponsors, bronzeSponsors, silverSponsors, goldSponsors };

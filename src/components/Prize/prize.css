@@ -77,9 +77,9 @@
     background: #0d1040;
   }
   
-  .pricing-table .ptable-single:hover {
+  /* .pricing-table .ptable-single:hover {
     box-shadow: 0 0 10px #999999;
-  }
+  } */
   
   .pricing-table .ptable-header {
     margin: 0 30px;
@@ -194,8 +194,11 @@
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 1px;
+    text-align: center;
     padding: 7px;
     border-bottom: 1px solid #dedede;
+    /* display: flex;
+    justify-content: center; */
   }
   
   .pricing-table .ptable-description ul li:last-child {
@@ -232,6 +235,10 @@
     background: #2A293E;
   }
 
+  .prize-heading {
+    font-size: 32px; 
+  }
+
   .ptable-price{
     display: flex;
     justify-content: center;
@@ -246,3 +253,5 @@
     justify-content: center;
     align-items: center;
   }
+
+  

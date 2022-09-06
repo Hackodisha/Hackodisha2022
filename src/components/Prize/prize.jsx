@@ -4,12 +4,16 @@ import first from "./assets/first.svg";
 import second from "./assets/second.svg";
 import third from "./assets/third.svg";
 import { Link } from "react-router-dom";
+import zilano from "../../assets/Sponsors/Gold/Zilano.png";
+import godaddy from "../../assets/Sponsors/Silver/goDaddy.png";
+import twilio from "../../assets/Sponsors/Silver/twilio.png";
+import github from "../../assets/Sponsors/Platinum/github.png";
 
 const Prize = () => {
   return (
     <>
       <section className="container" id="prize">
-        <h2 className="pl-10 text-xl text-white pb-10 pt-10">
+        <h2 className="pl-10 text-xl text-white pb-10 pt-10 prize-heading">
           # Hackodisha Winner's
         </h2>
 
@@ -30,11 +34,12 @@ const Prize = () => {
                 <div class="ptable-description">
                   <ul>
                     <li>
-                      Cash Price <span className="cash-list">&#8377;5000</span>
+                      Cash Prize{" "}
+                      <span className="cash-list">&#8377;10,000</span>
                     </li>
                     <li>Goodies & Tshirts </li>
-                    <li>Other prices worth XX</li>
-                    <li>Discount Coupons</li>
+                    <li>Vouchers worth $50k </li>
+                    <li>Food Coupons, domain name etc. </li>
                   </ul>
                 </div>
               </div>
@@ -62,17 +67,18 @@ const Prize = () => {
                 <div class="ptable-description">
                   <ul>
                     <li>
-                      Cash Price <span className="cash-list"> &#8377;7000</span>
+                      Cash Prize{" "}
+                      <span className="cash-list"> &#8377;14,000</span>
                     </li>
                     <li>Goodies & Tshirts </li>
-                    <li>Other prices worth XX</li>
-                    <li>Discount Coupons</li>
+                    <li>Vouchers worth $50k </li>
+                    <li>Food coupons, domain name etc. </li>
                   </ul>
                 </div>
               </div>
               <div class="ptable-footer">
                 <div class="ptable-action">
-                <a href="http://hackodisha2022-prizes.surge.sh/">Know more</a>
+                  <a href="http://hackodisha2022-prizes.surge.sh/">Know more</a>
                 </div>
               </div>
             </div>
@@ -94,29 +100,29 @@ const Prize = () => {
                 <div class="ptable-description">
                   <ul>
                     <li>
-                      Cash Price <span className="cash-list">&#8377;3000</span>
+                      Cash Prize <span className="cash-list">&#8377;7000</span>
                     </li>
                     <li>Goodies & Tshirts </li>
-                    <li>Other prices worth XX</li>
-                    <li>Discount Coupons</li>
+                    <li>Vouchers worth $50k</li>
+                    <li>food coupons, domain name</li>
                   </ul>
                 </div>
               </div>
               <div class="ptable-footer">
                 <div class="ptable-action">
-                <a href="http://hackodisha2022-prizes.surge.sh/">Know more</a>
+                  <a href="http://hackodisha2022-prizes.surge.sh/">Know more</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="nitr-prizes mt-16">
-          <h2 className="pl-10 text-xl text-white pb-10">
+          <h2 className="pl-10 text-xl text-white pb-10 prize-heading">
             # Only for NIT Rourkela Students
           </h2>
 
           <div class="pricing-table">
-            <div class="ptable-item">
+            {/* <div class="ptable-item">
               <div class="ptable-single">
                 <div class="ptable-header">
                   <div class="ptable-title">
@@ -124,11 +130,11 @@ const Prize = () => {
                       Overall Runner up NIT Rourkela
                     </h2>
                   </div>
-                  {/* <div class="ptable-price">
+                   <div class="ptable-price">
                   <div className="prize-svg">
                     <img src={second} alt="second" />
                   </div>
-                </div> */}
+                </div> 
                 </div>
                 <div class="ptable-body">
                   <div class="ptable-description">
@@ -138,19 +144,21 @@ const Prize = () => {
                         <span className="cash-list">&#8377;3000</span>
                       </li>
                       <li>Goodies & Tshirts </li>
-                      <li>Other prices worth XX</li>
-                      <li>Discount Coupons</li>
+                      <li>Vouchers worth $50k </li>
+                      <li>Food coupons, Cinecaarnival offer </li>  
                     </ul>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div class="ptable-item featured-item">
               <div class="ptable-single">
                 <div class="ptable-header">
                   <div class="ptable-title">
-                    <h2 className="text-[20px]">Overall Winner NIT Rourkela</h2>
+                    <h2 style={{ fontSize: "24px" }}>
+                      Overall Winner NIT Rourkela
+                    </h2>
                   </div>
                   {/* <div class="ptable-price">
                   <div className="prize-svg">
@@ -162,12 +170,12 @@ const Prize = () => {
                   <div class="ptable-description">
                     <ul>
                       <li>
-                        Cash Price{" "}
-                        <span className="cash-list"> &#8377;7000</span>
+                        Cash Prize{" "}
+                        <span className="cash-list"> &#8377;4000</span>
                       </li>
                       <li>Goodies & Tshirts </li>
-                      <li>Other prices worth XX</li>
-                      <li>Discount Coupons</li>
+                      <li>Vouchers worth $50k </li>
+                      <li>Food coupons, Cinecaarnival offer, etc. </li>
                     </ul>
                   </div>
                 </div>
@@ -178,7 +186,7 @@ const Prize = () => {
               <div class="ptable-single">
                 <div class="ptable-header">
                   <div class="ptable-title">
-                    <h2 className="text-[20px]">
+                    <h2 style={{ fontSize: "24px" }}>
                       Best Beginner Team NIT Rourkela
                     </h2>
                   </div>
@@ -192,19 +200,19 @@ const Prize = () => {
                   <div class="ptable-description">
                     <ul>
                       <li>
-                        Cash Price{" "}
-                        <span className="cash-list">&#8377;3000</span>
+                        Cash Prize{" "}
+                        <span className="cash-list">&#8377;1000</span>
                       </li>
                       <li>Goodies & Tshirts </li>
-                      <li>Other prices worth XX</li>
-                      <li>Discount Coupons</li>
+                      <li>Vouchers worth $50k </li>
+                      <li>Food coupons, Cinecaarnival offer, etc. </li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="ptable-item featured-item">
+            {/* <div class="ptable-item featured-item">
               <div class="ptable-single">
                 <div class="ptable-header">
                   <div class="ptable-title">
@@ -212,28 +220,30 @@ const Prize = () => {
                       To all NIT Rourkela Participants
                     </h2>
                   </div>
-                  {/* <div class="ptable-price">
+                   <div class="ptable-price">
                   <div className="prize-svg">
                     <img src={first} alt="first" />
                   </div>
-                </div> */}
+                </div> 
                 </div>
                 <div class="ptable-body">
                   <div class="ptable-description">
                     <ul>
                       <li>Sugarit food coupons</li>
-                      {/* <li></li> */}
+                       <li></li> 
                       <li>free stickers</li>
                       <li>Discount Coupons</li>
                     </ul>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="nitr-prizes mt-16">
-          <h2 className="pl-10 text-xl text-white pb-10"># For all Students</h2>
+          <h2 className="pl-10 text-xl text-white pb-10 prize-heading">
+            # For All Students
+          </h2>
 
           <div class="pricing-table">
             <div class="ptable-item">
@@ -252,12 +262,10 @@ const Prize = () => {
                   <div class="ptable-description">
                     <ul>
                       <li> 5-Year free upgrades for everyone else taskade </li>
-                      <li>25% discount no starch press</li>
-                      <li>discount vouchers interview buddy</li>
+                      <li> 25% discount no starch press</li>
+                      <li> Discount vouchers interview buddy</li>
                       <li>1Password teams</li>
-                      <li>
-                        90-day extended trial promo code for Balsamiq Cloud
-                      </li>
+                      <li>90-day extended trial for Balsamiq Cloud</li>
                       <li>Free domains from .xyz</li>
                       <li>20% discount Rosenfeld</li>
                     </ul>
@@ -267,15 +275,21 @@ const Prize = () => {
             </div>
           </div>
 
-          <h2 className="pl-10 text-xl text-white pb-10"># Track Prizes</h2>
+          <h2 className="pl-10 text-xl text-white pb-10 prize-heading">
+            # Track Prizes
+          </h2>
           <div class="pricing-table">
             <div class="ptable-item">
               <div class="ptable-single">
                 <div class="ptable-header">
                   <div class="ptable-title">
-                    <h2 className="text-[20px]">
-                      Best Domain Name from GoDaddy Registry
-                    </h2>
+                    <a
+                      href="https://www.zilano.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <img src={godaddy} alt="zilano" />{" "}
+                    </a>
                   </div>
                   {/* <div class="ptable-price">
                   <div className="prize-svg">
@@ -299,7 +313,13 @@ const Prize = () => {
               <div class="ptable-single">
                 <div class="ptable-header">
                   <div class="ptable-title">
-                    <h2 className="text-[20px]">Most Creative Use of Twilio</h2>
+                    <a
+                      href="https://www.twilio.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <img src={twilio} alt="twilio" />{" "}
+                    </a>
                   </div>
                   {/* <div class="ptable-price">
                   <div className="prize-svg">
@@ -375,7 +395,13 @@ const Prize = () => {
               <div class="ptable-single">
                 <div class="ptable-header">
                   <div class="ptable-title">
-                    <h2 className="text-[20px]">Most Creative Use of GitHub</h2>
+                    <a
+                      href="https://github.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <img src={github} alt="github" />{" "}
+                    </a>
                   </div>
                   {/* <div class="ptable-price">
                   <div className="prize-svg">
@@ -418,6 +444,63 @@ const Prize = () => {
                 </div>
               </div>
             </div> */}
+          </div>
+
+          <h2 className="pl-10 text-xl text-white pb-10 prize-heading">
+            # For Girls Only
+          </h2>
+
+          <div class="pricing-table">
+            <div class="ptable-item">
+              <div class="ptable-single">
+                <div class="ptable-header">
+                  <div class="ptable-title">
+                    <a
+                      href="https://www.zilano.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <img src={zilano} alt="zilano" />{" "}
+                    </a>
+                  </div>
+                  {/* <div class="ptable-price">
+                  <div className="prize-svg">
+                    <img src={second} alt="second" />
+                  </div>
+                </div> */}
+                </div>
+                <div class="ptable-body">
+                  <div class="ptable-description">
+                    <ul>
+                      <li>
+                        Overall Winner{" "}
+                        <span className="cash-list mr-[1.5px]">
+                          {" "}
+                          &#8377;1000{" "}
+                        </span>{" "}
+                        off on all products
+                      </li>
+                      <li>
+                        First Runner Up{" "}
+                        <span className="cash-list mr-[1.5px]">
+                          {" "}
+                          &#8377;500{" "}
+                        </span>{" "}
+                        off on all products
+                      </li>
+                      <li>
+                        For all participants{" "}
+                        <span className="cash-list mr-[1.5px]">
+                          {" "}
+                          &#8377;300{" "}
+                        </span>{" "}
+                        off on all products
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
