@@ -8,6 +8,7 @@ import polygon from "../../assets/Sponsors/Gold/polygon.png";
 import fueler from "../../assets/Sponsors/Gold/fueler.png";
 import Filecoin from "../../assets/Sponsors/Gold/Filecoin.png";
 import solana from "../../assets/Sponsors/Gold/Solana logo.jpg";
+import codingninja from "../../assets/Sponsors/Gold/coding-ninjas.png";
 
 import stream from "../../assets/Sponsors/Silver/Streamyard.png";
 import hoverr from "../../assets/Sponsors/Silver/hoverrobotix.png";
@@ -94,6 +95,12 @@ const goldSponsors = [
     link: "https://filecoin.io/",
     image: Filecoin,
     alt: "Polygon silver sponsor for Hackodisha",
+  },
+  {
+    id: 5,
+    link: "https://www.codingninjas.com/",
+    image: codingninja,
+    alt: "Coding ninja gold sponsor for Hackodisha",
   },
 ];
 const silverSponsors = [
