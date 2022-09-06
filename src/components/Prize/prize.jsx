@@ -393,17 +393,17 @@ const Prize = () => {
               </div>
             </div>
 
-            <div class="ptable-item featured-item">
+            {/* <div class="ptable-item featured-item">
               <div class="ptable-single">
                 <div class="ptable-header">
                   <div class="ptable-title">
                     <h2 className="text-[20px]">Women's Track</h2>
                   </div>
-                  {/* <div class="ptable-price">
+                   <div class="ptable-price">
                   <div className="prize-svg">
                     <img src={first} alt="first" />
                   </div>
-                </div> */}
+                </div> 
                 </div>
                 <div class="ptable-body">
                   <div class="ptable-description">
@@ -417,7 +417,7 @@ const Prize = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

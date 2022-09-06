@@ -5,7 +5,7 @@ import Prize from "./components/Prize/prize";
 import Stats from "./components/statistics/Stats";
 import Timeline from "./components/Timeline/Timeline";
 import Track from "./components/Track/Track";
-import bgWeb from "./assets/bg-final.png";
+import bgWeb from "./assets/new-bg.png";
 
 import "./App.css";
 import Loader from "./components/Loaders/Loader";

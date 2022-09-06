@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" flex justify-end text-white xl:mt-10">
+        <div className=" flex justify-center text-center text-white xl:mt-10">
           Hackodisha 2.0 &#169; 2022. Powered by Webwiz, NIT Rourkela.
         </div>
       </div>

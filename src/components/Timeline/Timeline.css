@@ -12,13 +12,11 @@
   .container-schedule {
     display: block;
     width: 100%;
-   
     margin: 0 auto;
   }
   .daily-schedule {
     margin-bottom: 1rem;
     margin: 0.5rem;
-  
     padding: 0;
     border: 0;
     font-size: 100%;
@@ -35,7 +33,6 @@
     background: linear-gradient(90deg, rgba(191, 214, 255, 0.75) 0%, rgba(228, 22, 179, 0.75) 100%);
     opacity: 0.95;
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     border-radius: 8px 0 0 8px;
     padding: 1rem 1rem 1rem 1rem;

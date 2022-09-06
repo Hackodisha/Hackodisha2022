@@ -1,9 +1,9 @@
-import React from 'react'
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 // import Raisebox from './raisebox';
-import './Timeline.css';
-import { Day1, Day2, Day3 } from './ScheduleData';
-import ScheduleCard from './ScheduleCard';
+import "./Timeline.css";
+import { Day1, Day2, Day3 } from "./ScheduleData";
+import ScheduleCard from "./ScheduleCard";
 const ScheduleContainer = styled.div`
   height: 100%;
   width: 100%;
@@ -13,11 +13,10 @@ const ScheduleContainer = styled.div`
 `;
 
 const Scheduleh1 = styled.h1`
-  font-weight: 900;
+  font-weight: 600;
   color: #fff;
   font-size: 6rem;
   line-height: 0.8em;
-  letter-spacing: -0.07em;
   @media screen and (max-width: 576px) {
     font-size: 3.2rem;
   }
@@ -55,28 +54,30 @@ function card3(Day3) {
 }
 const Timeline = () => {
   return (
-   <section id='Timeline'>
-    <div className="cont container" >
+    <section id="Timeline">
+      <div className="cont container">
+        <ScheduleContainer>
+          <Scheduleh1 style={{ color: "white" }}>
+            <p className="pt-6">
+              Timeline<span style={{ color: "#ff0000" }}></span>
+            </p>
+          </Scheduleh1>{" "}
+        </ScheduleContainer>
 
-      <ScheduleContainer>
-        <Scheduleh1 style={{ color: 'white' }}>
-           <p className='pt-6'>TIMELINE<span style={{ color: '#ff0000' }}></span></p>
-        </Scheduleh1>{' '}
-      </ScheduleContainer>
-
-      <div className="container-schedule pt-4">
-        <section className="content-section">
-          <div className="contents">
-            <div id="day1" className="daily-schedule">
-              {Day1.map(card1)}
-              {Day2.map(card2)}
-              {Day3.map(card3)}
+        <div className="container-schedule pt-4">
+          <section className="content-section">
+            <div className="contents">
+              <div id="day1" className="daily-schedule">
+                {Day1.map(card1)}
+                {Day2.map(card2)}
+                {Day3.map(card3)}
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
-      
-      </div>
-      </section>)}
-     
-export default Timeline
+    </section>
+  );
+};
+
+export default Timeline;

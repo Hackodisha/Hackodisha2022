@@ -156,7 +156,7 @@ const Header = () => {
                   href="https://hackodisha2022.devfolio.co/"
                   rel="noreferrer"
                   target="_blank"
-                  className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10 btn-hover color-2 "
+                  className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-[2px] text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 btn-hover min-w-[245px] max-w-[245px]"
                 >
                   Register with Devfolio
                 </a>
@@ -166,7 +166,7 @@ const Header = () => {
                   href="https://bit.ly/CommunityHO"
                   rel="noreferrer"
                   target="_blank"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover color-1"
+                  className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-[2px] bg-[#ea5f3f] hover:bg-[#e34320] text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover min-w-[245px]"
                 >
                   Join Us as Partner
                 </a>
@@ -178,7 +178,7 @@ const Header = () => {
                   href="https://forms.gle/iqGDkwR6PZ2kaDFM9"
                   rel="noreferrer"
                   target="_blank"
-                  className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10 btn-hover color-3"
+                  className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-[2px] text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 btn-hover min-w-[245px]"
                 >
                   Sponsor Us
                 </a>
@@ -188,7 +188,7 @@ const Header = () => {
                   href="https://discord.gg/WWbrGhbtmV"
                   target="_blank"
                   rel="noreferrer"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover color-4"
+                  className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-[2px] bg-[#ea5f3f] hover:bg-[#e34320] text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover min-w-[245px]"
                 >
                   Join With Discord
                 </a>
