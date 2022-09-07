@@ -5,7 +5,7 @@ import second from "./assets/second.svg";
 import third from "./assets/third.svg";
 import { Link } from "react-router-dom";
 import zilano from "../../assets/Sponsors/Gold/Zilano.png";
-import godaddy from "../../assets/Sponsors/Silver/goDaddy.png";
+import godaddy from "../../assets/Sponsors/Silver/goDaddy.jpg";
 import twilio from "../../assets/Sponsors/Silver/twilio.png";
 import github from "../../assets/Sponsors/Platinum/github.png";
 

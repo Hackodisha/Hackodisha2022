@@ -57,7 +57,7 @@ const Day1 = [
     id: 11,
     time: "19:00",
     date: "10 Sept",
-    title: "Fun Even",
+    title: "Fun Event",
   },
 ];
 

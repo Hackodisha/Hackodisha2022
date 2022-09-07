@@ -1,26 +1,26 @@
 import MLH from "../../assets/Sponsors/Platinum/MLH.png";
 import NITR from "../../assets/Sponsors/Platinum/Nit.png";
 import Github from "../../assets/Sponsors/Platinum/github.png";
+import Quillbot from "../../assets/Sponsors/Platinum/Quillbot logo.png";
 
 import devfolio from "../../assets/Sponsors/Gold/devfolio.png";
-// import github from "../../assets/Sponsors/Gold/Github.png";
 import polygon from "../../assets/Sponsors/Gold/polygon.png";
 import fueler from "../../assets/Sponsors/Gold/fueler.png";
-import Filecoin from "../../assets/Sponsors/Gold/Filecoin.png";
+import Filecoin from "../../assets/Sponsors/Gold/filecoin.jpg";
 import solana from "../../assets/Sponsors/Gold/Solana logo.jpg";
 import codingninja from "../../assets/Sponsors/Gold/coding-ninjas.png";
+import zilano from "../../assets/Sponsors/Gold/Zilano.png";
 
 import stream from "../../assets/Sponsors/Silver/Streamyard.png";
 import hoverr from "../../assets/Sponsors/Silver/hoverrobotix.png";
 import clerky from "../../assets/Sponsors/Silver/Clerky_Logo.jpg";
 import coil from "../../assets/Sponsors/Silver/coil.png";
-import godaddy from "../../assets/Sponsors/Silver/goDaddy.png";
+import godaddy from "../../assets/Sponsors/Silver/goDaddy.jpg";
 import superteam from "../../assets/Sponsors/Silver/superteam.png";
 import twilio from "../../assets/Sponsors/Silver/twilio.png";
 import xyz from "../../assets/Sponsors/Silver/xyz.png";
-import Bubble from "../../assets/Sponsors/Silver/Bubble.io logo.png";
+import Bubble from "../../assets/Sponsors/Silver/bubble.png";
 import DigitalOcean from "../../assets/Sponsors/Silver/Digital Ocean.png";
-import Quillbot from "../../assets/Sponsors/Silver/Quillbot logo.png";
 
 import oneP from "../../assets/Sponsors/Bronze/1p.png";
 import axure from "../../assets/Sponsors/Bronze/axure.png";
@@ -32,17 +32,17 @@ import Interview from "../../assets/Sponsors/Bronze/interviewbuddy.png";
 import taskade from "../../assets/Sponsors/Bronze/taskade.png";
 import noscratch from "../../assets/Sponsors/Bronze/nostarch.png";
 import wolfram from "../../assets/Sponsors/Bronze/wolfram.png";
-import hedera from "../../assets/Sponsors/Bronze/hedera.png";
+import hedera from "../../assets/Sponsors/Bronze/hedera.jpg";
 import cake from "../../assets/Sponsors/Bronze/interview_cake.png";
 import jetbrains from "../../assets/Sponsors/Bronze/jet_brains.png";
 import rosefeld from "../../assets/Sponsors/Bronze/Rosefeld.png";
 import standoutstickers from "../../assets/Sponsors/Bronze/standOutStickers.png";
-import testmail from "../../assets/Sponsors/Bronze/testmail.png";
+import testmail from "../../assets/Sponsors/Bronze/testmail.jpg";
 import hackclub from "../../assets/Sponsors/Bronze/hackClub.png";
 import snyk from "../../assets/Sponsors/Bronze/snyk.png";
 import centeredapp from "../../assets/Sponsors/Bronze/Centered.app.jpeg";
 import replit from "../../assets/Sponsors/Bronze/Replit.jpg";
-import Qoom from "../../assets/Sponsors/Bronze/Qoom logo.svg";
+import Qoom from "../../assets/Sponsors/Bronze/qoom-acf.png";
 
 const platinumSponsors = [
   {
@@ -101,6 +101,12 @@ const goldSponsors = [
     link: "https://www.codingninjas.com/",
     image: codingninja,
     alt: "Coding ninja gold sponsor for Hackodisha",
+  },
+  {
+    id: 6,
+    link: "https://www.zilano.com/",
+    image: zilano,
+    alt: "Zilano gold sponsor for Hackodisha",
   },
 ];
 const silverSponsors = [
