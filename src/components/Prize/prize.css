@@ -197,6 +197,7 @@
     text-align: center;
     padding: 7px;
     border-bottom: 1px solid #dedede;
+    /* display: inline-block; */
     /* display: flex;
     justify-content: center; */
   }

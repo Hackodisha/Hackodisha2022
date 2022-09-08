@@ -481,7 +481,7 @@ const Prize = () => {
                 <div class="ptable-body">
                   <div class="ptable-description">
                     <ul>
-                      <li>
+                      <li className="inline-block">
                         Overall Winner{" "}
                         <span className="cash-list mr-[1.5px]">
                           {" "}
@@ -489,7 +489,7 @@ const Prize = () => {
                         </span>{" "}
                         off on all products
                       </li>
-                      <li>
+                      <li className="inline-block">
                         First Runner Up{" "}
                         <span className="cash-list mr-[1.5px]">
                           {" "}
@@ -497,7 +497,7 @@ const Prize = () => {
                         </span>{" "}
                         off on all products
                       </li>
-                      <li>
+                      <li className="inline-block">
                         For all participants{" "}
                         <span className="cash-list mr-[1.5px]">
                           {" "}
