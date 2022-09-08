@@ -1,60 +1,143 @@
-export default  [
-    {
-        title : "Overall Winner",
-        prizelist: ["Cash 7000",	"4 $20 ebook vouchers no starch press",	"Async online mock practice with unlimited practice interview buddy",	"Axure RP Team Edition",	"Fueler Premium Fueler Digital Bundle",	"Hackathon plan 6 months testmail",	"Clerky company lifetime package", 	"Jetbrains Personal Subscription and free annual license of IDE of choice"]
-
-    },
-    {
-        title:"Overall Runner's Up",
-        prizelist:["Cash 5000",	"Async online mock practice with unlimited practice interview buddy",	"Axure RP Team Edition",	"Fueler Premium Fueler Digital Bundle",	"Hackathon plan 6 months testmail",	"Jetbrains Personal Subscription"]
-    },
-    {
-        title:"Overall Second Runner's Up",
-        prizelist:["Cash 3000",	"Axure RP Team Edition",	"Fueler Premium Fueler Digital Bundle",	"Hackathon plan 6 months testmail"]
-    },
-    {
-        title:"Beginners Track",
-        prizelist:["Cash 3000",	"Hackathon plan 6 months testmail"]
-    },
-    {
-        title:"Womens Track",
-        prizelist:["Cash 3000",	"Hackathon plan 6 months testmail"]
-    },
-    {
-        title:"Best College Project",
-        prizelist:["Cash 7000",	"Fueler Premium Fueler Digital Bundle",	"Hackathon plan 6 months testmail"]
-    },
-    {
-        title:"Mini-event giveaway",
-        prizelist:["1 $20 ebook vouchers no starch press",	"Rosenfeld Free giveaway"]
-    },
-    {
-        title:"Registered and Checked-in",
-        prizelist:[ "5-Year free upgrades for everyone else taskade",	"25% discount no starch press",	"discount vouchers interview buddy",	"1Password teams",	"90-day extended trial promo code for Balsamiq Cloud",	"Free domains from .xyz",	"20% discount Rosenfeld"]
-    },
-    {
-        title:"Best Domain Name from GoDaddy Registry",
-        prizelist:[ "Hack from Home Kit"]
-    },
-    {
-        title:"Most Creative Use of Twilio",
-        prizelist:["Twilio Swag Box","GameGo Console"]
-    },
-    {
-        title:"Best Web Monetization Project",
-        prizelist:["Portable Charger, Coil Pin & $60 Credit"]
-    },
-    {
-        title:"Best Blockchain Project Using Hedera",
-        prizelist:["Glorious Modular Compact Mechanical Keyboard"]
-    },
-    {
-        title:"Most Creative Use of GitHub",
-        prizelist:["GitHub Octocat Puzzle & Sticker bundle"]
-    },
-    {
-        title:"All Students Of NITR",
-        prizelist:["Free Food Coupons from Sugar Eats, Free stickers"]
-    }
-]
-;
+const PrizeData = [
+  {
+    title: "Hackodisha 2.0 Winner",
+    prizelist: [
+      "Cash Prize INR 14000",
+      "QuillBot Premium Subscriptions for 1 year",
+      "Swags including (T-shirts, Stickers, etc.",
+      "No Starch Press $20 ebook vouchers to each member",
+      "Interview Buddy online mock practice with unlimited practice",
+      "Custom .XYZ domain for 1 year",
+      "$125 Digital Ocean credit to each member",
+      "Axure RP Team Edition",
+      "Fueler Premium and Fueler Digital Bundle to each member",
+      "Testmail Hackathon plan for 6 months",
+      "Clerky company lifetime package",
+      "Jetbrains Personal Subscription and free annual license of IDE of choice",
+      "HoverRobotix INR 10000 vouchers to each member",
+      "Complimentary certified mentoring session/workshop invites from MENTORx . Discount vouchers from RevUP LifeSkills",
+      "All benefits of All Students Prize track",
+    ],
+  },
+  {
+    title: "Hackodisha 2.0 Runner Up",
+    prizelist: [
+      "Cash Prize INR 10000",
+      "QuillBot Premium Subscriptions for 1 year",
+      "Swags including (T-shirts, Stickers, etc.",
+      "Interview Buddy online mock practice with unlimited practice",
+      "Custom .XYZ domain for 1 year",
+      "$100 Digital Ocean credit to each member",
+      "Axure RP Team Edition",
+      "Fueler Premium and Fueler Digital Bundle to each member",
+      "Testmail Hackathon plan for 6 months",
+      "Jetbrains Personal Subscription and free annual license of IDE of choice",
+      "HoverRobotix INR 10000 vouchers to each member",
+      "Complimentary certified mentoring session/workshop invites from MENTORx . Discount vouchers from RevUP LifeSkills",
+      "All benefits of All Students Prize track",
+    ],
+  },
+  {
+    title: "Hackodisha 2.0 Second Runner Up",
+    prizelist: [
+      "Cash Prize INR 7000",
+      "QuillBot Premium Subscriptions for 1 year",
+      "Swags including (T-shirts, Stickers, etc.",
+      "Custom .XYZ domain for 1 year",
+      "$100 Digital Ocean credit to each member",
+      "Axure RP Team Edition",
+      "Fueler Premium and Fueler Digital Bundle to each member",
+      "Testmail Hackathon plan for 6 months",
+      "HoverRobotix INR 10000 vouchers to each member",
+      "Complimentary certified mentoring session/workshop invites from MENTORx . Discount vouchers from RevUP LifeSkills",
+      "All benefits of All Students Prize track",
+    ],
+  },
+  {
+    title: "Beginners Track",
+    prizelist: [
+      "Cash 1000",
+      "QuillBot Premium Subscriptions for 1 year",
+      "Swags including (T-shirts, Stickers, etc.",
+      "Custom .XYZ domain for 1 year",
+      "HoverRobotix INR 10000 vouchers",
+      "All benefits of All Students Prize track",
+    ],
+  },
+  {
+    title: "For All Participants",
+    prizelist: [
+      "QuillBot Premium Subscriptions for 1 year",
+      "Taskade 5-year free upgrades",
+      "No Starch Press 25% discount",
+      "Interview Buddy discount vouchers",
+      "1Password teams",
+      "90-day extended trial promo code for Balsamiq Cloud",
+      "Free domains from .xyz",
+      "Free domains from GoDaddy",
+      "20% discount Rosenfeld",
+      "A Stripe Code will be provided that will allow participants to upgrade to Centered Pro for free",
+      "$100, Digital Ocean 60-day free trial",
+      "Zilano Vouchers",
+    ],
+  },
+  {
+    title: "Womens Track",
+    prizelist: [
+      "Winner: INR 1000 off on all products from zilano",
+      "Runner up: INR 500 off on all products from zilano",
+      "INR 300 off on all products from zilano",
+      "All benefits of All Student Prize Track",
+    ],
+  },
+  {
+    title: "Best College Project",
+    prizelist: [
+      "Cash 4000",
+      "QuillBot Premium Subscriptions for 1 year",
+      "Fueler Premium Fueler Digital Bundle",
+      "Hackathon plan 6 months testmail",
+      "All benefits of All Students Prize Track",
+    ],
+  },
+  {
+    title: "Mini-event giveaway",
+    prizelist: [
+      "1 $20 ebook vouchers no starch press",
+      "QuillBot Premium Subscriptions for 1 year",
+      "Rosenfeld Free giveaway",
+      "All Benefits of All Students Prize Track",
+    ],
+  },
+  {
+    title: "Best Domain Name from GoDaddy Registry",
+    prizelist: ["Hack from Home Kit"],
+  },
+  {
+    title: "Most Creative Use of Twilio",
+    prizelist: ["Twilio Swag Box", "GameGo Console"],
+  },
+  {
+    title: "Best Web Monetization Project",
+    prizelist: ["Portable Charger, Coil Pin & $60 Credit"],
+  },
+  {
+    title: "Best Blockchain Project Using Hedera",
+    prizelist: ["Glorious Modular Compact Mechanical Keyboard"],
+  },
+  {
+    title: "Most Creative Use of GitHub",
+    prizelist: ["GitHub Octocat Puzzle & Sticker bundle"],
+  },
+  {
+    title: "All Students Of NIT Rourkela",
+    prizelist: [
+      "QuillBot Premium Subscription",
+      "Food Coupons from Tikkaway, Baarish",
+      "Cinecarrnival: 1 Popcorn Free on 3 movie Tickets",
+      "All Valid Until October 30, 2022",
+      "You can collect the coupons from any of the members of the Hackodisha team",
+    ],
+  },
+];
+export default PrizeData;

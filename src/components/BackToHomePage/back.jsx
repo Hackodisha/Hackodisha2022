@@ -19,7 +19,7 @@ const BackIcon = () => (
 
 const Back = () => {
   return (
-    <div className="flex ml-10 pt-4 relative">
+    <div className="flex ml-10 pt-4 relative z-[99999]">
       <Link to="/">
         <button
           style={{
@@ -28,10 +28,10 @@ const Back = () => {
             alignItems: "center",
             position: "fixed",
           }}
-          className="p-4 mb-4 text-[16px] rounded-xl text-white backbtn"
+          className="p-4 mb-4 text-[16px] rounded-md text-white backbtn"
         >
           <BackIcon className="mt-[-5px]" />{" "}
-          <span className="ml-2"> Back to Home Page </span>
+          <span className="ml-2"> Hackodisha </span>
         </button>
       </Link>
     </div>

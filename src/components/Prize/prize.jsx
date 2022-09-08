@@ -46,7 +46,8 @@ const Prize = () => {
               </div>
               <div class="ptable-footer">
                 <div class="ptable-action">
-                  <a href="http://hackodisha2022-prizes.surge.sh/">Know more</a>
+                  {/* <a href="http://hackodisha2022-prizes.surge.sh/">Know more</a> */}
+                  <Link to="/prizes">Know More</Link>
                 </div>
               </div>
             </div>
@@ -80,7 +81,8 @@ const Prize = () => {
               </div>
               <div class="ptable-footer">
                 <div class="ptable-action">
-                  <a href="http://hackodisha2022-prizes.surge.sh/">Know more</a>
+                  {/* <a href="http://hackodisha2022-prizes.surge.sh/">Know more</a> */}
+                  <Link to="/prizes">Know More</Link>
                 </div>
               </div>
             </div>
@@ -113,7 +115,8 @@ const Prize = () => {
               </div>
               <div class="ptable-footer">
                 <div class="ptable-action">
-                  <a href="http://hackodisha2022-prizes.surge.sh/">Know more</a>
+                  {/* <a href="http://hackodisha2022-prizes.surge.sh/">Know more</a> */}
+                  <Link to="/prizes">Know More</Link>
                 </div>
               </div>
             </div>
