@@ -69,6 +69,12 @@ const platinumSponsors = [
     image: Github,
     alt: "Github gold sponsor for Hackodisha",
   },
+  {
+    id: 5,
+    link: "https://www.codingninjas.com/",
+    image: codingninja,
+    alt: "Coding ninja gold sponsor for Hackodisha",
+  },
 ];
 
 const goldSponsors = [
@@ -95,12 +101,6 @@ const goldSponsors = [
     link: "https://filecoin.io/",
     image: Filecoin,
     alt: "Polygon silver sponsor for Hackodisha",
-  },
-  {
-    id: 5,
-    link: "https://www.codingninjas.com/",
-    image: codingninja,
-    alt: "Coding ninja gold sponsor for Hackodisha",
   },
   {
     id: 6,
