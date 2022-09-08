@@ -42,7 +42,7 @@ function Events() {
   return (
     <section id="events">
       <div className="container">
-        <div className="text-white p-4 md:p-20 lg:text-[20px] md:text-[18px] font-semibold">
+        <div className="text-white p-4 md:p-20 md:pt-4 lg:text-[20px] md:text-[18px] font-semibold">
           <h1 className=" py-10 mb-3 text-4xl font-normal">
             Hackodisha 2.0 Events
           </h1>

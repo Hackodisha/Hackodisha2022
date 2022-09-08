@@ -18,6 +18,7 @@ import {
   PlatinumSponsors,
   SilverSponsors,
 } from "./components/Sponsor/sponsor";
+import RefreshmentPartners from "./components/RefreshmentPartners";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -45,6 +46,7 @@ function App() {
         <GoldSponsors />
         <SilverSponsors />
         <BronzeSponsors />
+        <RefreshmentPartners />
         <FAQ />
         <Footer />
       </div>
