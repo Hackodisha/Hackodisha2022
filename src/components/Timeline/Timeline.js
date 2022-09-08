@@ -55,7 +55,7 @@ function card3(Day3) {
 const Timeline = () => {
   return (
     <section id="Timeline">
-      <div className="cont container">
+      <div className="cont container md:p-20 md:pt-5">
         <ScheduleContainer>
           <Scheduleh1 style={{ color: "white" }}>
             <p className="pt-6">
@@ -66,7 +66,7 @@ const Timeline = () => {
 
         <div className="container-schedule pt-4">
           <section className="content-section">
-            <div className="contents">
+            <div className="contents md:p-20">
               <div id="day1" className="daily-schedule">
                 {Day1.map(card1)}
                 {Day2.map(card2)}
