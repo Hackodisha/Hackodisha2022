@@ -12,7 +12,7 @@ import github from "../../assets/Sponsors/Platinum/github.png";
 const Prize = () => {
   return (
     <>
-      <section className="container" id="prize">
+      <section className="container" id="Prizes">
         <h2 className="pl-10 text-xl text-white pb-10 pt-10 prize-heading">
           # Hackodisha Winner's
         </h2>
