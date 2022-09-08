@@ -196,7 +196,7 @@ const Header = () => {
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start title-sponsor-tag">
               <div>
-                <span className="title-sponsor text-yellow-50">
+                <span className="title-sponsor md:text-2xl text-yellow-50">
                   Powered By:{" "}
                 </span>{" "}
               </div>
