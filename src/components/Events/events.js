@@ -3,6 +3,7 @@ import cp from "../../assets/Events/code-o-fiesta.jpeg";
 import ev1 from "../../assets/Events/Anshul.jpeg";
 import ev2 from "../../assets/Events/Gaurav Sen.jpeg";
 import ev3 from "../../assets/Events/MD Fraz.jpeg";
+import ev4 from "../../assets/Events/urvi.jpeg";
 import "./events.css";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -27,6 +28,13 @@ const eventData = [
     Name: "MD Fraz",
     type: "Workshop",
     thumbnail: ev3,
+    Join: "",
+  },
+  {
+    id: 5,
+    Name: "Urvi",
+    type: "Workshop",
+    thumbnail: ev4,
     Join: "",
   },
   {
