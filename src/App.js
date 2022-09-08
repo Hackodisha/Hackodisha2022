@@ -38,8 +38,8 @@ function App() {
         <About />
         <Stats />
         <Track />
+        <Events />
         <Prize />
-        {/* <Events /> */}
         <Timeline />
         <PlatinumSponsors />
         <GoldSponsors />

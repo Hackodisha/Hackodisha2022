@@ -1,0 +1,51 @@
+.registration-competition-button{
+    display: none;
+    width: 150px; 
+    padding: 20px;
+    position: absolute;
+    top: 55%; 
+    right: 0; 
+    border-radius: 4px;
+  background: #ea5f3f;
+  padding: 10px 22px;
+  color: #d4d7db;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  transition: all 0.2s ease-in-out;
+        background: #ea5f3f;
+        color: #d4d7db;
+        align-items: center;
+}
+
+@media only screen and (min-width: 900px) {
+    .registration-competition-thumbnail:hover + .registration-competition-button, .registration-competition-button:hover {
+        display: flex;
+    }
+    
+    .registration-competition-button span {
+        margin-left: 10px;
+        margin-top: 3px; 
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .registration-competition-button {
+        display: flex;
+        font-size: 16px; 
+        padding: 5px; 
+        width: 100px; 
+        bottom: 0; 
+        top: unset; 
+        right: 20px; 
+    }
+    
+    .registration-competition-button span {
+        margin-left: 5px;
+        margin-top: 3px; 
+    }
+}

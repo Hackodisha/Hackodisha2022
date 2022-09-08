@@ -8,7 +8,7 @@ import Hamburger from "hamburger-react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import HackodishaIMG from "../../assets/logo.png";
 import { Routes, Route } from "react-router-dom";
-import QuillBot from "../../assets/Sponsors/Silver/Quillbot logo.png";
+import QuillBot from "../../assets/Sponsors/Platinum/Quillbot logo.png";
 const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const [navContExpanded, setNavContExpanded] = useState(false);
@@ -103,7 +103,7 @@ const Header = () => {
                 </li>
                 <li>
                   {" "}
-                  <Link smooth={true} to="Timeline">
+                  <Link smooth={true} to="events">
                     Events
                   </Link>
                 </li>
