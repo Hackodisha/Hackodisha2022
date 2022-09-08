@@ -39,6 +39,7 @@ const Prize = () => {
                     </li>
                     <li>Goodies & Tshirts </li>
                     <li>Vouchers worth $50k </li>
+                    <li>Quillbot’s Premium Subscription</li>
                     <li>Food Coupons, domain name etc. </li>
                   </ul>
                 </div>
@@ -72,6 +73,7 @@ const Prize = () => {
                     </li>
                     <li>Goodies & Tshirts </li>
                     <li>Vouchers worth $50k </li>
+                    <li>Quillbot’s Premium Subscription</li>
                     <li>Food coupons, domain name etc. </li>
                   </ul>
                 </div>
@@ -104,6 +106,7 @@ const Prize = () => {
                     </li>
                     <li>Goodies & Tshirts </li>
                     <li>Vouchers worth $50k</li>
+                    <li>Quillbot’s Premium Subscription</li>
                     <li>food coupons, domain name</li>
                   </ul>
                 </div>
@@ -175,6 +178,7 @@ const Prize = () => {
                       </li>
                       <li>Goodies & Tshirts </li>
                       <li>Vouchers worth $50k </li>
+                      <li>Quillbot’s Premium Subscription</li>
                       <li>Food coupons, Cinecaarnival offer, etc. </li>
                     </ul>
                   </div>
@@ -205,6 +209,7 @@ const Prize = () => {
                       </li>
                       <li>Goodies & Tshirts </li>
                       <li>Vouchers worth $50k </li>
+                      <li>Quillbot’s Premium Subscription</li>
                       <li>Food coupons, Cinecaarnival offer, etc. </li>
                     </ul>
                   </div>
@@ -261,6 +266,7 @@ const Prize = () => {
                 <div class="ptable-body">
                   <div class="ptable-description">
                     <ul>
+                      <li>Quillbot’s Premium Subscription</li>
                       <li> 5-Year free upgrades for everyone else taskade </li>
                       <li> 25% discount no starch press</li>
                       <li> Discount vouchers interview buddy</li>

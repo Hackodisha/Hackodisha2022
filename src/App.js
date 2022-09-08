@@ -6,6 +6,7 @@ import Stats from "./components/statistics/Stats";
 import Timeline from "./components/Timeline/Timeline";
 import Track from "./components/Track/Track";
 import bgWeb from "./assets/new-bg.png";
+import Events from "./components/Events/events";
 
 import "./App.css";
 import Loader from "./components/Loaders/Loader";
@@ -38,6 +39,7 @@ function App() {
         <Stats />
         <Track />
         <Prize />
+        {/* <Events /> */}
         <Timeline />
         <PlatinumSponsors />
         <GoldSponsors />

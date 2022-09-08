@@ -360,3 +360,13 @@ width: 250px;
     display: none;
   }
 }
+
+/* Title tag Sponsor */
+
+.title-sponsor-tag{
+  align-items: center;
+}
+
+.title-sponsor {
+  margin-right: 10px;
+}

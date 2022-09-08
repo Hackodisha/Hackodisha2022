@@ -1,6 +1,6 @@
 import React from "react";
 
-function Stats() {
+function Events() {
   return (
     <section id="Stats">
       <div className="container">
@@ -81,4 +81,4 @@ function Stats() {
   );
 }
 
-export default Stats;
+export default Events;

@@ -8,7 +8,7 @@ import Hamburger from "hamburger-react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import HackodishaIMG from "../../assets/logo.png";
 import { Routes, Route } from "react-router-dom";
-
+import QuillBot from "../../assets/Sponsors/Silver/Quillbot logo.png";
 const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const [navContExpanded, setNavContExpanded] = useState(false);
@@ -191,6 +191,26 @@ const Header = () => {
                   className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-[2px] bg-[#ea5f3f] hover:bg-[#e34320] text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover min-w-[245px]"
                 >
                   Join With Discord
+                </a>
+              </div>
+            </div>
+            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start title-sponsor-tag">
+              <div>
+                <span className="title-sponsor text-yellow-50">
+                  Powered By:{" "}
+                </span>{" "}
+              </div>
+              <div>
+                <a
+                  href="https://quillbot.com/"
+                  rel="noreferrer"
+                  target={"_blank"}
+                >
+                  <img
+                    className="w-[300px]"
+                    src={QuillBot}
+                    alt="Powered By QuillBot"
+                  ></img>
                 </a>
               </div>
             </div>
