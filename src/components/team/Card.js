@@ -21,7 +21,7 @@ const Card = ({ name, image, team, insta, linkedin, github }) => {
       <div className="flex justify-evenly text-4xl pt-5 pb-1">
         {/* <a href={github}><AiFillGithub/></a>
         <a href={insta}><AiFillInstagram/></a> */}
-        <a href={linkedin}>
+        <a href={linkedin} rel="noreferrer" target={"_blank"}>
           <AiFillLinkedin />
         </a>
       </div>
