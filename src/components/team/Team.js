@@ -107,12 +107,12 @@ const Team = () => {
         </div>
         <div className=" flex flex-wrap p-2 lg:p-10 justify-evenly">
           {datacom.map((com) => {
-            const { imglink, contact } = com;
+            const { imglink } = com;
             return (
               <div className="flex justify-center align-middle  mt-4 w-[190px]  p-4 m-2">
-                <a href={contact} className="flex justify-center">
+                {/* <a href={contact} className="flex justify-center">
                   <img className="" src={imglink} alt="a" />
-                </a>
+                </a> */}
                 <div className="flex justify-center">
                   <img className="" src={imglink} alt="a" />
                 </div>
