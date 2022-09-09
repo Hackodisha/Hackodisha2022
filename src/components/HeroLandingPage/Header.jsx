@@ -113,7 +113,7 @@ const Header = () => {
                     {/* <Link smooth={true} >
                   Team
                 </Link> */}
-                    Partners
+                    Team
                   </Link1>
                 </li>
                 {/* <div className={isNavExpanded?'disp':'Hide'}> */}

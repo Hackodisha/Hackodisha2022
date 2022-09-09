@@ -4,6 +4,7 @@ import ev1 from "../../assets/Events/Anshul.jpeg";
 import ev2 from "../../assets/Events/Gaurav Sen.jpeg";
 import ev3 from "../../assets/Events/MD Fraz.jpeg";
 import ev4 from "../../assets/Events/urvi.jpeg";
+import quill from "../../assets/Events/quillbot.jpeg";
 import "./events.css";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -42,6 +43,13 @@ const eventData = [
     Name: "Anshul",
     type: "Workshop",
     thumbnail: ev1,
+    Join: "",
+  },
+  {
+    id: 6,
+    Name: "Quillbot",
+    type: "Workshop",
+    thumbnail: quill,
     Join: "",
   },
 ];
