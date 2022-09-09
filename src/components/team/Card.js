@@ -18,12 +18,11 @@ const Card = ({name,image,team,insta,linkedin,github}) => {
         <div className='flex justify-center mt-[12px] text-[24px] lg:text-[24px] text-orange-500'>
 
         {name}
-        </div>
-        <div className='flex justify-center mt-[8px] text-[24px] lg:text-[26px] text-yellow-400'>
-            
+      </div>
+      <div className="flex justify-center mt-[8px] text-[24px] lg:text-[26px] text-yellow-400">
         {team}
-        </div>
-        <div className='flex justify-evenly text-4xl pt-5 pb-1'>
+      </div>
+      <div className="flex justify-evenly text-4xl pt-5 pb-1">
         {/* <a href={github}><AiFillGithub/></a>
         <a href={insta}><AiFillInstagram/></a> */}
         <a href={dam}>{man}</a>
@@ -32,4 +31,4 @@ const Card = ({name,image,team,insta,linkedin,github}) => {
   )
 }
 
-export default Card
+export default Card;
