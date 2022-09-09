@@ -14,20 +14,20 @@ export default [
     linkedin: "https://www.linkedin.com/in/gourab-nanda-0b27aa173/",
   },
   {
-    name: "Manjeet Dhayal",
-    image: Manjeet,
-    team: "Lead Organiser",
-    insta: "",
-    github: "",
-    linkedin: "",
-  },
-  {
     name: "Kumar Shantanu",
     image: Shantanu,
     team: "Lead Organiser",
     insta: "",
     github: "",
     linkedin: "https://www.linkedin.com/in/kumar-shantanu01/",
+  },
+  {
+    name: "Manjeet Dhayal",
+    image: Manjeet,
+    team: "Lead Organiser",
+    insta: "",
+    github: "",
+    linkedin: "",
   },
 
   // {
