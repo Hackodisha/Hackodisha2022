@@ -6,6 +6,14 @@ import Shreya from "./assets/pics/Shreya.jpeg";
 import Manjeet from "./assets/pics/Manjeet.jpeg";
 export default [
   {
+    name: "Gourab Nanda",
+    image: Gourab,
+    team: "Lead Organiser",
+    insta: "",
+    github: "",
+    linkedin: "https://www.linkedin.com/in/gourab-nanda-0b27aa173/",
+  },
+  {
     name: "Manjeet Dhayal",
     image: Manjeet,
     team: "Lead Organiser",
@@ -21,14 +29,7 @@ export default [
     github: "",
     linkedin: "https://www.linkedin.com/in/kumar-shantanu01/",
   },
-  {
-    name: "Gourab Nanda",
-    image: Gourab,
-    team: "Lead Organiser",
-    insta: "",
-    github: "",
-    linkedin: "https://www.linkedin.com/in/gourab-nanda-0b27aa173/",
-  },
+
   // {
 
   //     name: 'Manjeet Dhayal',
