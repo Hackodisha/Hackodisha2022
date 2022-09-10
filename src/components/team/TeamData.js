@@ -53,8 +53,10 @@ export default [
     team: "Lead Organiser",
     insta: "",
     github: "",
-    linkedin: "",
+
+    linkedin: "https://www.linkedin.com/in/manjeet-dhayal/?originalSubdomain=in",
   },
+  
 
   // {
 
@@ -83,6 +85,31 @@ export default [
       insta:'',
       github:'',
       linkedin:'https://www.linkedin.com/in/shreyakhetan',
+    },
+    {
+      name: "Rituraj Tripathy",
+      image: "https://res.cloudinary.com/webwiznitr/image/upload/v1631692861/Hackodisha-Team/PicsArt_09-14-10.09.41_-_Rituraj_Tripathy_vzjvwt.jpg",
+      team: "Design Lead",
+      insta: "",
+      github: "",
+      linkedin: "https://www.linkedin.com/in/rituraj-tripathy-a666aa20b/",
+    },
+    {
+      name: "Aporanta Mukhopadhyay",
+      image: "https://res.cloudinary.com/webwiznitr/image/upload/v1662787929/Hackodisha2.0/296266442_5094810280630876_2272629197845313131_n_jgtdwu.jpg",
+      team: "Content Lead",
+      insta: "",
+      github: "",
+      linkedin: "https://www.linkedin.com/in/aporanta-mukhopadhyay-744892210/?originalSubdomain=in",
+    },
+    {
+      name: 'Sai Sambhab Chaini',      
+      image:
+      sai,
+      team:'Organiser',
+      insta:'',
+      github:'',
+      linkedin:'https://www.linkedin.com/in/sai-sambhab-chaini', 
     },
   {
       
@@ -224,16 +251,16 @@ export default [
       github:'',
       linkedin:'https://www.linkedin.com/in/aashirbad-sabat-443974228',
     },
-    {
+    // {
         
-        name: 'Abinash Gupta',      
-        image:
-       abinash,
-        team:'Sponsorship Team',
-        insta:'https://twitter.com/abinashnitrkl01',
-        github:'',
-        linkedin:'',
-      },
+    //     name: 'Abinash Gupta',      
+    //     image:
+    //    abinash,
+    //     team:'Sponsorship Team',
+    //     insta:'https://twitter.com/abinashnitrkl01',
+    //     github:'',
+    //     linkedin:'',
+    //   },
     {
         
         name: 'Sibasis Malla',      
@@ -275,16 +302,16 @@ export default [
         github:'',
         linkedin:'https://www.linkedin.com/in/piyush-paikroy-a3a5a4201/',
       },
-    {
+    // {
         
-        name: 'Komal',      
-        image:
-       komal,
-        team:'Management Team',
-        insta:'',
-        github:'',
-        linkedin:'https://www.linkedin.com/in/komal-deegwal-35b31a206',
-      },
+    //     name: 'Komal',      
+    //     image:
+    //    komal,
+    //     team:'Management Team',
+    //     insta:'',
+    //     github:'',
+    //     linkedin:'https://www.linkedin.com/in/komal-deegwal-35b31a206',
+    //   },
     {
       
       name: 'Jyoti Prakash Sethy ',      
@@ -325,14 +352,6 @@ export default [
       github:'',
       linkedin:'https://www.linkedin.com/in/siba-prasad-das-b61b5a220',
     },
-    {
-      name: 'Sai Sambhab Chaini',      
-      image:
-      sai,
-      team:'Other',
-      insta:'',
-      github:'',
-      linkedin:'https://www.linkedin.com/in/sai-sambhab-chaini', 
-    }
+    
     
 ]
