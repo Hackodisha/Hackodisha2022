@@ -13,7 +13,7 @@ const Card = ({name,image,team,insta,linkedin,github}) => {
   return (
     <div className='text-white p-4 pt-8  flex flex-col justify-center'>
         <div className=''>      
-        <img src={image} className='w-[240px] h-[280px]  rounded-[50%] color' />
+        <img src={image} className='w-[240px] h-[240px]  rounded-[50%] color' />
         </div>
         <div className='flex justify-center mt-[12px] text-[24px] lg:text-[24px] text-orange-500'>
 
