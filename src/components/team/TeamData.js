@@ -17,13 +17,13 @@ import img3 from './assets/pics/Hackodisha photo - Annadanam Lakshmi Haritha.jpg
 import img4 from './assets/pics/adya.jpg'
 import img5 from './assets/pics/sonali.jpg'
 import aashirbad from './assets/pics/aashirbad.jpg'
-import abinash from './assets/pics/abinash.jpg'
+
 import sibasis from './assets/pics/sibasis.jpg'
 import lalit from './assets/pics/lalit.jpg'
 import simun from './assets/pics/simun.jpg'
 import jyoti from './assets/pics/jyoti.png'
 import sanjeet from './assets/pics/sanjeet.jpg'
-import komal from './assets/pics/komal.jpg'
+
 import piyush from './assets/pics/piyush.jpeg'
 import anubhuti from './assets/pics/anubhuti.jpeg'
 import sai from './assets/pics/sai.jpg'
@@ -73,6 +73,14 @@ export default [
     insta: "",
     github: "",
     linkedin: "https://www.linkedin.com/in/amreet-khuntia-15193220b/",
+  },
+  {
+    name: "Akash Sahu",
+    image: Akash,
+    team: "Management Lead",
+    insta: "",
+    github: "",
+    linkedin: "https://www.linkedin.com/in/akashsahu006",
   },
   {
       
