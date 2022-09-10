@@ -28,9 +28,11 @@ export default [
     team: "Lead Organiser",
     insta: "",
     github: "",
+
     linkedin: "https://www.linkedin.com/in/manjeet-dhayal/?originalSubdomain=in",
   },
   
+
   // {
 
   //     name: 'Manjeet Dhayal',
