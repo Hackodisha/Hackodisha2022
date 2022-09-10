@@ -4,14 +4,15 @@ import Shantanu from "./assets/pics/Shantanu.jpg";
 import Amreet from "./assets/pics/Amreet.png";
 import Shreya from "./assets/pics/Shreya.jpeg";
 import Manjeet from "./assets/pics/Manjeet.jpeg";
+import sai from "./assets/pics/sai.jpg"
 export default [
   {
-    name: "Manjeet Dhayal",
-    image: Manjeet,
+    name: "Gourab Nanda",
+    image: Gourab,
     team: "Lead Organiser",
     insta: "",
     github: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/gourab-nanda-0b27aa173/",
   },
   {
     name: "Kumar Shantanu",
@@ -22,13 +23,14 @@ export default [
     linkedin: "https://www.linkedin.com/in/kumar-shantanu01/",
   },
   {
-    name: "Gourab Nanda",
-    image: Gourab,
+    name: "Manjeet Dhayal",
+    image: Manjeet,
     team: "Lead Organiser",
     insta: "",
     github: "",
-    linkedin: "https://www.linkedin.com/in/gourab-nanda-0b27aa173/",
+    linkedin: "https://www.linkedin.com/in/manjeet-dhayal/?originalSubdomain=in",
   },
+  
   // {
 
   //     name: 'Manjeet Dhayal',
@@ -62,5 +64,30 @@ export default [
     insta: "",
     github: "",
     linkedin: "https://www.linkedin.com/in/shreyakhetan",
+  },
+  {
+    name: "Rituraj Tripathy",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1631692861/Hackodisha-Team/PicsArt_09-14-10.09.41_-_Rituraj_Tripathy_vzjvwt.jpg",
+    team: "Design Lead",
+    insta: "",
+    github: "",
+    linkedin: "https://www.linkedin.com/in/rituraj-tripathy-a666aa20b/",
+  },
+  {
+    name: "Aporanta Mukhopadhyay",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1662787929/Hackodisha2.0/296266442_5094810280630876_2272629197845313131_n_jgtdwu.jpg",
+    team: "Content Lead",
+    insta: "",
+    github: "",
+    linkedin: "https://www.linkedin.com/in/aporanta-mukhopadhyay-744892210/?originalSubdomain=in",
+  },
+  {
+    name: 'Sai Sambhab Chaini',      
+    image:
+    sai,
+    team:'Organiser',
+    insta:'',
+    github:'',
+    linkedin:'https://www.linkedin.com/in/sai-sambhab-chaini', 
   },
 ];
