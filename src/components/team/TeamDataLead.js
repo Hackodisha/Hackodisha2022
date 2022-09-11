@@ -34,16 +34,7 @@ export default [
       "https://www.linkedin.com/in/manjeet-dhayal/?originalSubdomain=in",
   },
 
-  // {
-
-  //     name: 'Manjeet Dhayal',
-  //     image:
-  //     "https://thumbs.dreamstime.com/b/courier-rides-scooter-express-delivery-motorcycle-service-vector-illustration-180980568.jpg",
-  //     team:'Tech Lead',
-  //     insta:'',
-  //     github:'',
-  //     linkedin:'',
-  //   },
+  
   {
     name: "Shreya Khetan",
     image:
@@ -90,7 +81,7 @@ export default [
     insta: "",
     github: "",
     linkedin: "https://www.linkedin.com/in/rituraj-tripathy-a666aa20b/",
-  },
+},
   {
     name: "Jyoti Prakash Sethy ",
     image:
