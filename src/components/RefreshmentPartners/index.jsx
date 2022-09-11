@@ -3,6 +3,8 @@ import React from "react";
 import fcp1 from "../../assets/RefreshmentPartners/fcp1.png";
 import fcp2 from "../../assets/RefreshmentPartners/fcp2.png";
 import mcp1 from "../../assets/RefreshmentPartners/mcp1.png";
+import mcp2 from "../../assets/RefreshmentPartners/daawat.png";
+import mcp3 from "../../assets/RefreshmentPartners/sugaritttt.png";
 
 const eventData = [
   {
@@ -16,6 +18,14 @@ const eventData = [
   {
     img: mcp1,
     Name: "Cinecaarnival",
+  },
+  {
+    img: mcp2,
+    Name: "Dawaat",
+  },
+  {
+    img: mcp3,
+    Name: "SugarIt",
   },
 ];
 
