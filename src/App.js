@@ -8,6 +8,7 @@ import Track from "./components/Track/Track";
 import bgWeb from "./assets/new-bg.png";
 import Events from "./components/Events/events";
 import Judges from "./components/Judges";
+import Media from "./components/MediaPartners/Media";
 
 import "./App.css";
 import Loader from "./components/Loaders/Loader";
@@ -48,6 +49,7 @@ function App() {
         <GoldSponsors />
         <SilverSponsors />
         <BronzeSponsors />
+        <Media />
         <RefreshmentPartners />
         <FAQ />
         <Footer />
