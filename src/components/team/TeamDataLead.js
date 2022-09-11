@@ -81,8 +81,7 @@ export default [
     insta: "",
     github: "",
     linkedin: "https://www.linkedin.com/in/rituraj-tripathy-a666aa20b/",
-  },
-  
+  },  
   {
     name: 'Sai Sambhab Chaini',      
     image:
