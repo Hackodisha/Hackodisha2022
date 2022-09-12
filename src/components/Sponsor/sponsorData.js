@@ -47,7 +47,7 @@ import Qoom from "../../assets/Sponsors/Bronze/qoom-acf.png";
 const platinumSponsors = [
   {
     id: 12,
-    link: "https://quillbot.com/",
+    link: "https://quillbot.com/guides/ai-writing-assistant",
     image: Quillbot,
     alt: "Quillbot Robotix silver sponsor for Hackodisha",
   },
