@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </div>
             <h2 className={isNavExpanded ? "logowritten" : "Hide"}>
-              HackOdisha 2.0
+              HackOdisha 3.0
             </h2>
             <div className={isNavExpanded ? "nav-menu w-nav-menu" : "nav-menu"}>
               <ul>
@@ -144,11 +144,11 @@ const Header = () => {
           <div className="sm:text-center lg:text-left">
             <h1 className="text-6xl tracking-tight font-bold text-slate-100 sm:text-5xl md:text-6xl">
               <p className="block fontx">HACK</p>{" "}
-              <p className="block text-[#ea5f3f]  xl:inline">ODISHA 2.0</p>
+              <p className="block text-[#ea5f3f]  xl:inline">ODISHA 3.0</p>
             </h1>
             <p className="mt-3 text-base text-slate-200 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Take charge of your ideas and make a difference with real-life
-              solutions for Odisha at HackOdisha 2.0.
+              solutions for Odisha at HackOdisha 3.0.
             </p>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
