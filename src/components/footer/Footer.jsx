@@ -90,7 +90,7 @@ const Footer = () => {
 
           <div className="flex flex-col items-center pb-10 pr-8 ml-4 md:pl-10  md:w-2/5 md:pt-16 lg:pt-4">
             <div className="text-3xl text-white mb-4  text-center">
-              Want to become a sponsor of Hackodisha 2.0?
+              Want to become a sponsor of Hackodisha 3.0?
             </div>
             <button
               type="button"
@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
 
         <div className=" flex justify-center text-center text-white xl:mt-10">
-          Hackodisha 2.0 &#169; 2022. Powered by Webwiz, NIT Rourkela.
+          Hackodisha 3.0 &#169; 2022. Powered by Webwiz, NIT Rourkela.
         </div>
       </div>
     </div>
