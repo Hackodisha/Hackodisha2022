@@ -6,8 +6,8 @@ import PrizePage from "./components/prizes2/PrizePage";
 
 const Home = () => {
   return (
-    <div className="h-screen w-screen bg-black text-white flex items-center justify-center text-violet-900 font-bold italic">
-     <h1> COMING SOON 🚀</h1>
+    <div className="h-screen w-screen bg-violet-900 text-white flex items-center justify-center font-bold italic text-2xl">
+     <h1> COMING SOON 🚀 </h1>
     </div>
 //     <Routes>
 //       <Route exact path="/prizes" element={<PrizePage />} />
