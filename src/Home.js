@@ -6,7 +6,7 @@ import PrizePage from "./components/prizes2/PrizePage";
 
 const Home = () => {
   return (
-    <div className="h-screen w-screen bg-violet-900 text-white flex items-center justify-center font-bold italic text-2xl">
+    <div className="h-screen w-screen bg-violet-950 text-white flex items-center justify-center font-bold italic text-2xl">
      <h1> COMING SOON 🚀 </h1>
     </div>
 //     <Routes>
