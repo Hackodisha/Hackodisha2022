@@ -6,11 +6,14 @@ import PrizePage from "./components/prizes2/PrizePage";
 
 const Home = () => {
   return (
-    <Routes>
-      <Route exact path="/prizes" element={<PrizePage />} />
-      <Route exact path="/team" element={<Team />} />
-      <Route path="*" element={<App />} />
-    </Routes>
+    <div className="h-screen w-screen bg-violet-950 text-white flex items-center justify-center font-bold italic text-2xl">
+     <h1> COMING SOON 🚀 </h1>
+    </div>
+//     <Routes>
+//       <Route exact path="/prizes" element={<PrizePage />} />
+//       <Route exact path="/team" element={<Team />} />
+//       <Route path="*" element={<App />} />
+//     </Routes>
   );
 };
 
