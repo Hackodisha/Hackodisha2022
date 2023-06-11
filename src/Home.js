@@ -6,11 +6,12 @@ import PrizePage from "./components/prizes2/PrizePage";
 
 const Home = () => {
   return (
-    <Routes>
-      <Route exact path="/prizes" element={<PrizePage />} />
-      <Route exact path="/team" element={<Team />} />
-      <Route path="*" element={<App />} />
-    </Routes>
+    <iframe src="https://embed.lottiefiles.com/animation/128531"></iframe>
+//     <Routes>
+//       <Route exact path="/prizes" element={<PrizePage />} />
+//       <Route exact path="/team" element={<Team />} />
+//       <Route path="*" element={<App />} />
+//     </Routes>
   );
 };
 
