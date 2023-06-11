@@ -6,7 +6,7 @@ import PrizePage from "./components/prizes2/PrizePage";
 
 const Home = () => {
   return (
-   <iframe src="https://lottie.host/?file=684ca39b-5fc0-46d7-b0f9-5259777c2dbd/utsi1I1Cij.json"></iframe>
+   <iframe src="https://embed.lottiefiles.com/animation/90176"></iframe>
 //     <Routes>
 //       <Route exact path="/prizes" element={<PrizePage />} />
 //       <Route exact path="/team" element={<Team />} />
