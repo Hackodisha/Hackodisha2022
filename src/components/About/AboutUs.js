@@ -12,7 +12,7 @@ export default function About() {
           />
           <div className="  lg:pr-0 lg:w-[60%] py-1 pl-2 pr-1 ">
             <p className="font-sans lg:w-[95%]  text-base md:text-lg lg:text-xl xl:text-2xl txt leading-6">
-              Welcome to HackOdisha 3.0, a hackathon that aims to bring
+              Welcome to HackOdisha 2.0, a hackathon that aims to bring
               creatives and developers together to solve some of the most
               pressing problems faced by communities all over the world. This
               36-hour-long event will bring together technocrats from all over
