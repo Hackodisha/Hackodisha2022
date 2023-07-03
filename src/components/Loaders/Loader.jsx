@@ -15,7 +15,7 @@ const Loader = () => {
         <div className="css-square square8"></div>
       </div>
 
-      <div className="hackodisha-name"> Hackodisha 3.0 </div>
+      <div className="hackodisha-name"> Hackodisha 2.0 </div>
     </section>
   );
 };
